@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alleared">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header-container">
+      <div class="logo-div">
+        <img src="assets/images/logo.svg" alt="logo image">
+      </div>
+
+      <div class="header-links-div">
+        <a class="header-link" href="#">Home</a>
+        <a class="header-link" href="#">New</a>
+        <a class="header-link" href="#">Popular</a>
+        <a class="header-link" href="#">Trending</a>
+        <a class="header-link" href="#">Categories</a>
+        <div class="icon-menu-div js-icon-menu-div">
+          <img id="js-icon-menu" src="assets/images/icon-menu.svg" alt="Icon menu button">
+        </div>
+        <div class="header-links-mobile">
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categories</a>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <article class="main-article-container">
+
+      <section class="web3-container">
+        <div class="image-web3-div">
+          <picture>
+            <source media="(max-width: 1000px)" srcset="assets/images/image-web-3-mobile.jpg">
+            <img class="image" src="assets/images/image-web-3-desktop.jpg" alt="web 3 desktop">
+          </picture>
+        </div>
+        <div class="title-div">
+          <h1>The Bright Future of Web 3.0&quest;</h1>
+        </div>
+        <div class="title-description-div">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
+            hands of the people. But is it really fulfilling its promise&quest;</p>
+
+          <button>READ MORE</button>
+        </div>
+      </section>
+
+      <section class="new-news-container">
+        <div>
+
+          <h2>New</h2>
+
+        </div>
+
+        <div class="new-news-div">
+          <div class="news-div">
+            <a href="">Hydrogen VS Electric Cars</a>
+            <p>Will hydrogen&dash;fueled cars ever catch up to EVs &quest;</p>
+          </div>
+          <div class="news-div">
+            <a href="">The Downsides of AI Artistry</a>
+            <p>What are the possible adverse effects of on&dash;demand AI image generation&quest;</p>
+          </div>
+          <div class="news-div">
+            <a href="">Is VC Funding Drying Up&quest;</a>
+            <p>Private funding by VC firms is down 50&percnt; YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="top-news-section">
+
+        <div class="top-news-div">
+          <div>
+            <img class="top-news-image" src="assets/images/image-retro-pcs.jpg" alt="retro pcs image">
+          </div>
+          <div class="top-news-description">
+            <h3>01</h3>
+            <a href="#">Reviving Retro PCs</a>
+            <p>What happens when old PCs are given modern upgrades&quest;</p>
+          </div>
+        </div>
+
+        <div class="top-news-div">
+          <div>
+            <img class="top-news-image" src="assets/images/image-top-laptops.jpg" alt="top laptops image">
+          </div>
+          <div class="top-news-description">
+            <h3>02</h3>
+            <a href="#">Top 10 Laptops of 2022</a>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="top-news-div">
+          <div>
+            <img class="top-news-image" src="assets/images/image-gaming-growth.jpg" alt="gaming growth image">
+          </div>
+          <div class="top-news-description">
+            <h3>03</h3>
+            <a href="#">The Growth of Gaming</a>
+            <p>How the pandemic had sparked fresh opportunities.</p>
+          </div>
+        </div>
+
+      </section>
+
+    </article>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Alleared</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

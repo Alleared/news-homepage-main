@@ -1,0 +1,4 @@
+News Homepage Main javascript Junior challenge from Frontend Mentor. My first time doing a grid inside a grid. 
+Learn a new way to use box shadow, when clicked in the mobile size hamburger menu, everything else gets darken except the header links menu. 
+Also, this is my first time using Javascript and CSS animations together, I had fun with this one but still took me a lot of time to complete it. I try also writing better documentation, I'd love to hear if it's still confusing and how can I improve it. 
+Looking forward to keep practicing my Javascript. Thanks Frontend Mentor and the Frontend community.
